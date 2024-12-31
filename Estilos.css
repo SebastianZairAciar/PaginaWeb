@@ -1,0 +1,302 @@
+*{
+margin: 0px auto;
+padding: 0px;
+text-decoration: none;
+color: none
+}
+body{
+    background-image: url(/home/Sebastian/Escritorio/fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Container{
+    background: rgba(58, 56, 56, 0.616);
+    border-radius: 150px 150px 150px 150px;
+    width: 60vw;
+    height: 8vw; 
+    margin: 0px auto;
+
+}
+
+header{
+
+margin: 0 auto;
+margin-top: 5%;
+height: 35vw;
+width: 80%;
+text-align: center ;
+line-height: 100px;
+color: rgb(0, 0, 0);
+}
+
+
+
+.datos{
+    display: grid;
+    grid-template-columns: repeat(10, 11.2vw);
+    grid-row: repeat(10, 10vw);
+}
+
+
+
+#Perfil{
+    grid-column: 1/4;
+    height: 20vw;
+    background: rgb(115, 29, 255);
+    text-align: center;
+    margin: 1.5vw;
+    margin-bottom: 0.5vw;
+    padding-top: 1.25%;
+    padding-bottom: 1%;
+    line-height: 100%;
+    border-radius: 3vw 3vw 3vw 3vw;
+}
+
+#SobreMi{
+    grid-column: 4/7;
+    height: 20vw;
+    background: rgb(115, 29, 255);
+    text-align: center;
+    margin: 1.5vw;
+    margin-bottom: 0.5vw;
+    padding-top: 1.25%;
+    padding-bottom: 1%;
+    line-height: 100%;
+    border-radius: 3vw 3vw 3vw 3vw;
+}
+
+#Educacion{
+    grid-column: 1/4;
+    float: left;
+    width: 91%;
+    height: 20vw;
+    background: rgb(115, 29, 255);
+    text-align: center;
+    margin: 1.5vw;
+    margin-bottom: 0.5vw;
+    padding-top: 1.25%;
+    padding-bottom: 1%;
+    line-height: 100%;
+    border-radius: 3vw 3vw 3vw 3vw;
+}
+
+#Experiencia{
+    grid-column: 4/7;
+    float: left;
+    width: 91%;
+    height: 20vw;
+    background: rgb(115, 29, 255);
+    text-align: center;
+    margin: 1.5vw;
+    margin-bottom: 0.5vw;
+    padding-top: 1.25%;
+    padding-bottom: 1%;
+    line-height: 100%;
+    border-radius: 3vw 3vw 3vw 3vw;
+}
+
+#Habilidades{
+    grid-column: 1/4;
+    float: left;
+    width: 91%;
+    height: 20vw;
+    background: rgb(115, 29, 255);
+    text-align: center;
+    margin: 1.5vw;
+    margin-bottom: 0.5vw;
+    padding-top: 1.25%;
+    padding-bottom: 1%;
+    line-height: 100%;
+    border-radius: 3vw 3vw 3vw 3vw;
+}
+
+#Pasatiempos{
+    grid-column: 4/7;
+    float: left;
+    width: 91%;
+    height: 20vw;
+    background: rgb(115, 29, 255);
+    text-align: center;
+    margin: 1.5vw;
+    margin-bottom: 0.5vw;
+    padding-top: 1.25%;
+    padding-bottom: 1%;
+    line-height: 100%;
+    border-radius: 3vw 3vw 3vw 3vw;
+}
+
+aside{ 
+    grid-column: 7/10;
+    grid-row: 1/10;
+    width: 84%;
+    height: 65.7vw;
+    background: rgb(51, 87, 134);
+    text-align: center;
+    margin: 1.5vw;
+    margin-bottom: 0.5vw;
+    margin-right: 10vm;
+    padding-top: 1.25%;
+    padding-bottom: 1%;
+    line-height: 100%;
+    border-radius: 3vw 3vw 3vw 3vw;
+
+}
+
+.Destacados_imagen{
+    width: 70%;
+    height: auto;
+    margin: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(6, 12vw);
+    column-gap: 6.5vw;
+    grid-row: repeat(3, 10vw);
+    height: 100px;
+    width: 100%;
+
+}
+
+footer{
+
+    background: rgba(0, 0, 0, 0.842);
+    width:92%;
+    height: 18vw;
+    color:rgb(115, 29, 255);
+    margin: 1.5%;
+    padding-left: 5%;
+    border-radius: 150px 150px 150px 150px;
+}
+
+
+.Contacto{
+    grid-column: 3/4;
+    grid-row: 1/1;
+}
+
+.GitHub{
+    grid-row: 3/3;
+    grid-column: 5/6;
+    margin-left: 3.5vw;
+}
+
+.Linkedin{
+    grid-row: 3/3;
+    grid-column: 3/4;
+    margin-left: 2.8vw;
+}
+
+.Gmail{
+    grid-row: 3/3;
+    grid-column: 1/2;
+    margin-left: 3.7vw;
+}
+
+
+.Microsoft_Teams{
+    grid-row: 3/3;
+    grid-column: 7/8;
+    margin-left: 2.2vw;
+}
+
+.Link_GitHub{
+    grid-row: 2/2;
+    grid-column: 5/6;
+}
+ 
+.imagen_GitHub{
+    width: 50%;
+    margin-left: 3.5vw;
+    border-radius: 150px 150px 150px 150px;
+}
+
+.Link_Linkedin{
+    grid-row: 2/2;
+    grid-column: 3/4;
+}
+
+.imagen_Linkedin{
+    width: 50%;
+    margin-left: 3.5vw;
+    border-radius: 150px 150px 150px 150px;
+}
+
+.Link_Gmail{
+    grid-row: 2/2;
+    grid-column: 1/2;
+}
+
+.imagen_Gmail{
+    width: 50%;
+    margin-left: 3.5vw;
+    border-radius: 150px 150px 150px 150px;
+}
+
+
+
+
+.imagen{
+    border-radius: 50%;
+    width: 25%;
+    height: auto;
+    object-fit: cover;
+}
+
+.h0{font-size: 5vw;}
+
+.ha{font-size: 2.5vw;
+    margin-top: 1vw;
+}
+
+.H2{
+    font-size: 3vw;
+    margin-top: 4%;
+}
+
+.Hp{
+    margin-top: 7%;
+    font-size: 1.5vw;
+    text-align: left;
+    margin-left: 1.5vw;
+    margin-right: 1vw;
+}
+
+
+.H3{
+    font-size: 2vw;
+    margin-top: 4%;
+}
+
+#BusquedaBarra{
+    float: left;
+    width: 55%;
+    height: 3vw;
+    font-size: 2vw;
+    margin-left: 3vw;
+    border-radius: 150px 150px 150px 150px;
+}
+
+#BusquedaBoton{
+    width: 24%;
+    height: 3vw;
+    font-size: 2vw;
+    border-radius: 150px 150px 150px 150px;
+    margin-left: 1VW;
+}
+
+.ha{padding-bottom: 2vw;}
+
+body{
+    width: 100%;
+    height: 100%;
+}
