@@ -5,7 +5,7 @@ text-decoration: none;
 color: none
 }
 body{
-    background-image: url(/home/Sebastian/Escritorio/fondo.jpg);
+    background-image: url("https://raw.githubusercontent.com/SebastianZairAciar/PaginaWeb/refs/heads/Web/Imagenes/fondo.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
