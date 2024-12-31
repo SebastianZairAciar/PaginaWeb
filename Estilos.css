@@ -5,12 +5,10 @@ text-decoration: none;
 color: none
 }
 body{
-    background-image: url(https://raw.githubusercontent.com/SebastianZairAciar/PaginaWeb/refs/heads/Web/Imagenes/fondo.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    
-    
+        background-image: url('https://raw.githubusercontent.com/SebastianZairAciar/PaginaWeb/refs/heads/Web/Imagenes/fondo.jpg');
+        background-size: cover; 
+        background-position: center center; 
+        background-repeat: no-repeat;        
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -299,4 +297,24 @@ footer{
 body{
     width: 100%;
     height: 100%;
+}
+
+
+.Proyectos{
+    display: grid;
+    grid-template-columns: repeat(6, 12vw);
+    column-gap: 6.5vw;
+    grid-row: repeat(3, 10vw);
+    height: 100px;
+    width: 100%;
+
+}
+
+.Proyectos{
+
+    background: rgba(21, 255, 0, 0.842);
+    width:92%;
+    height: 50vw;
+    color:rgb(115, 29, 255);
+    border-radius: 30px 30px 30px 30px;
 }
