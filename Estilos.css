@@ -305,8 +305,6 @@ body{
     grid-template-columns: repeat(6, 12vw);
     column-gap: 6.5vw;
     grid-row: repeat(3, 10vw);
-    height: 100px;
-    width: 100%;
 
 }
 
