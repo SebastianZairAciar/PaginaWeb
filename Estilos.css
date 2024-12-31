@@ -314,7 +314,9 @@ body{
 
     background: rgba(21, 255, 0, 0.842);
     width:92%;
-    height: 50vw;
+    height: 18vw;
     color:rgb(115, 29, 255);
+    margin: 1.5%;
+    padding-left: 5%;
     border-radius: 30px 30px 30px 30px;
 }
