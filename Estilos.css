@@ -310,8 +310,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 28vw);
     column-gap: 2.3vw;
-    grid-row: repeat(3, 10vw);
-
+    grid-row: repeat(4,3vw);
 }
 
 .Proyectos{
@@ -327,67 +326,114 @@ body{
 }
 
 .Proyecto1_imagen{
-    grid-row: 1/1;
+    grid-row: 2/2;
     grid-column: 1/1;
     width: 95%;
-    height: auto;
     margin: 3vw;
-    margin-top: 8vw;
+    margin-top: 2vw;
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
 } 
 
+
+.Proyecto1_general{
+    grid-row: 2/2;
+    grid-column: 1/1;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+
 .Proyecto2_imagen{
-    grid-row: 1/1;
+    grid-row: 2/2;
     grid-column: 2/2;
     width: 95%;
-    height: auto;
     margin: 3vw;
-    margin-top: 8vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+
+.Proyecto2_general{
+    grid-row: 2/2;
+    grid-column: 2/2;
+    width: 95%;
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
 } 
 
 .Proyecto3_imagen{
-    grid-row: 1/1;
+    grid-row: 2/2;
     grid-column: 3/3;
     width: 95%;
-    height: auto;
     margin: 3vw;
-    margin-top: 8vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+
+.Proyecto3_general{
+    grid-row: 2/2;
+    grid-column: 3/3;
+    width: 95%;
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
 } 
 
 .Proyecto4_imagen{
-    grid-row: 1/1;
+    grid-row: 3/3;
     grid-column: 1/1;
     width: 95%;
-    height: auto;
     margin: 3vw;
-    margin-top: 27.5vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+
+.Proyecto4_general{
+    grid-row: 3/3;
+    grid-column: 1/1;
+    width: 95%;
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
 } 
 
 .Proyecto5_imagen{
-    grid-row: 1/1;
+    grid-row: 3/3;
     grid-column: 2/2;
     width: 95%;
-    height: auto;
     margin: 3vw;
-    margin-top: 27.5vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.Proyecto5_general{
+    grid-row: 3/3;
+    grid-column: 2/2;
+    width: 95%;
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
 } 
 
 .Proyecto6_imagen{
-    grid-row: 1/1;
+    grid-row: 3/3;
     grid-column: 3/3;
     width: 95%;
-    height: auto;
     margin: 3vw;
-    margin-top: 27.5vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.Proyecto6_general{
+    grid-row: 3/3;
+    grid-column: 3/3;
+    width: 95%;
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
 } 
@@ -395,34 +441,56 @@ body{
 /*19,5 x fila */
 
 .Proyecto7_imagen{
-    grid-row: 1/1;
+    grid-row: 4/4;
     grid-column: 1/1;
     width: 95%;
-    height: auto;
     margin: 3vw;
-    margin-top: 47vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+
+.Proyecto7_general{
+    grid-row: 4/4;
+    grid-column: 1/1;
+    width: 95%;
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
 } 
 
 .Proyecto8_imagen{
-    grid-row: 1/1;
+    grid-row: 4/4;
     grid-column: 2/2;
     width: 95%;
-    height: auto;
     margin: 3vw;
-    margin-top: 47vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.Proyecto8_general{
+    grid-row: 4/4;
+    grid-column: 2/2;
+    width: 95%;
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
 } 
 
 .Proyecto9_imagen{
-    grid-row: 1/1;
+    grid-row: 4/4;
     grid-column: 3/3;
     width: 95%;
-    height: auto;
     margin: 3vw;
-    margin-top: 47vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.Proyecto9_general{
+    grid-row: 4/4;
+    grid-column: 3/3;
+    width: 95%;
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
 } 
@@ -432,15 +500,15 @@ body{
     grid-column: 1/3;
     font-size: 2.5vw;
     margin-top: 2.5vw;
-    margin-left:38.5vw;
+    margin-left:38.7vw;
 }
-
+/*
 .Proyecto1_texto{
     grid-row: 1/1;
-    grid-column: 1/3;
+    grid-column: 1/1;
     font-size: 2.5vw;
-    margin-top: 19vw;
-    margin-left:12vw; 
+    margin-top: 1vw;
+    margin-right: 100vw; 
 }
 
 .Proyecto2_texto{
@@ -505,5 +573,9 @@ body{
     font-size: 2.5vw;
     margin-top: 58vw;
     margin-left:12vw; 
+}
+*/
+.Proyecto_link{
+    height: 1vw;
 }
 
