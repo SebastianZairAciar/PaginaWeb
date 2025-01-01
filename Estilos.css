@@ -138,6 +138,8 @@ color: rgb(0, 0, 0);
 }
 
 aside{ 
+    display: grid;
+    grid-row: repeat(4, 10vw);
     grid-column: 7/10;
     grid-row: 1/10;
     width: 84%;
@@ -154,8 +156,93 @@ aside{
 
 }
 
-.Destacados_imagen{
-    width: 70%;
+
+/*
+.Proyecto2_imagen{
+    grid-row: 2/2;
+    grid-column: 2/2;
+    width: 95%;
+    margin: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+.Proyecto2_general{
+    grid-row: 2/2;
+    grid-column: 2/2;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+*/
+.hd{
+    font-size: 2.5vw;
+    margin-top: 4%;
+    margin-bottom: 0vw;
+}
+
+.Proyecto1_Destacos{
+    grid-row: 1/1;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.Proyecto2_Destacos{
+    grid-row: 2/2;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.Proyecto3_Destacos{
+    grid-row: 3/3;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+
+.Proyecto4_Destacos{
+    grid-row: 4/4;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.Destacados_imagen1{
+    grid-row: 1/1;
+    width: 80%;
+    height: auto;
+    margin: 3vw;
+    margin-top: 1vw;
+    margin-bottom: 0.5vw;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.Destacados_imagen2{
+    grid-row: 2/2;
+    width: 80%;
+    height: auto;
+    margin: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.Destacados_imagen3{
+    grid-row: 3/3;
+    width: 80%;
+    height: auto;
+    margin: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.Destacados_imagen4{
+    grid-row: 4/4;
+    width: 80%;
     height: auto;
     margin: 3vw;
     margin-top: 2vw;
@@ -184,7 +271,6 @@ footer{
     padding-left: 5%;
     border-radius: 150px 150px 150px 150px;
 }
-
 
 .Contacto{
     grid-column: 3/4;
@@ -471,9 +557,9 @@ body{
 .hproyectos{
     grid-row: 1/1;
     grid-column: 1/3;
-    font-size: 2.5vw;
+    font-size: 3.1vw;
     margin-top: 2.5vw;
-    margin-left:38.7vw;
+    margin-left:36.7vw;
 }
 /*
 .Proyecto1_texto{
@@ -548,7 +634,4 @@ body{
     margin-left:12vw; 
 }
 */
-.Proyecto_link{
-    height: 1vw;
-}
 
