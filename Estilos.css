@@ -302,18 +302,130 @@ body{
 
 .Proyectos{
     display: grid;
-    grid-template-columns: repeat(6, 12vw);
-    column-gap: 6.5vw;
+    grid-template-columns: repeat(3, 28vw);
+    column-gap: 2.3vw;
     grid-row: repeat(3, 10vw);
 
 }
 
 .Proyectos{
     background: rgba(21, 255, 0, 0.842);
-    width:92%;
-    height: 18vw;
+    width:94.4%;
+    height: 60vw;
     color:rgb(115, 29, 255);
     margin: 1.5%;
-    padding-left: 5%;
+    margin-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
     border-radius: 30px 30px 30px 30px;
 }
+
+.Proyecto1_imagen{
+    grid-row: 1/1;
+    grid-column: 1/1;
+    width: 95%;
+    height: auto;
+    margin: 3vw;
+    margin-top: 8vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.Proyecto2_imagen{
+    grid-row: 1/1;
+    grid-column: 2/2;
+    width: 95%;
+    height: auto;
+    margin: 3vw;
+    margin-top: 8vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.Proyecto3_imagen{
+    grid-row: 1/1;
+    grid-column: 3/3;
+    width: 95%;
+    height: auto;
+    margin: 3vw;
+    margin-top: 8vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.Proyecto4_imagen{
+    grid-row: 1/1;
+    grid-column: 1/1;
+    width: 95%;
+    height: auto;
+    margin: 3vw;
+    margin-top: 27.5vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.Proyecto5_imagen{
+    grid-row: 1/1;
+    grid-column: 2/2;
+    width: 95%;
+    height: auto;
+    margin: 3vw;
+    margin-top: 27.5vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.Proyecto6_imagen{
+    grid-row: 1/1;
+    grid-column: 3/3;
+    width: 95%;
+    height: auto;
+    margin: 3vw;
+    margin-top: 27.5vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+/*19,5 x fila */
+
+.Proyecto7_imagen{
+    grid-row: 1/1;
+    grid-column: 1/1;
+    width: 95%;
+    height: auto;
+    margin: 3vw;
+    margin-top: 47vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.Proyecto8_imagen{
+    grid-row: 1/1;
+    grid-column: 2/2;
+    width: 95%;
+    height: auto;
+    margin: 3vw;
+    margin-top: 47vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.Proyecto9_imagen{
+    grid-row: 1/1;
+    grid-column: 3/3;
+    width: 95%;
+    height: auto;
+    margin: 3vw;
+    margin-top: 47vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.hproyectos{
+    grid-row: 1/1;
+    grid-column: 1/3;
+    font-size: 2.5vw;
+    margin-top: 2.5vw;
+    margin-left:38vw;
+}
+
