@@ -21,6 +21,21 @@ body{
 
 }
 
+#Titulo{
+     background: rgba(58, 56, 56, 0.616);
+    border-radius: 150px 150px 150px 150px;
+    width: 50vw;
+    height: 8vw; 
+    margin: 0px auto;
+    margin-top: 3vw;
+    margin-bottom: 20vw;
+}
+
+.ht{
+    font-size: 3.7vw;
+    margin-top: 4%;
+}
+
 header{
 
 margin: 0 auto;
@@ -166,12 +181,12 @@ footer{
 }
 
 footer{
-
     background: rgba(0, 0, 0, 0.842);
     width:92%;
     height: 18vw;
     color:rgb(115, 29, 255);
     margin: 1.5%;
+    margin-top: 10vw;
     padding-left: 5%;
     border-radius: 150px 150px 150px 150px;
 }
@@ -259,6 +274,7 @@ footer{
 .H2{
     font-size: 3vw;
     margin-top: 4%;
+    margin-left: 0.5vw;
 }
 
 .Hp{
@@ -311,7 +327,7 @@ body{
 .Proyectos{
     background: rgba(21, 255, 0, 0.842);
     width:94.4%;
-    height: 60vw;
+    height: 64vw;
     color:rgb(115, 29, 255);
     margin: 1.5%;
     margin-bottom: 1%;
@@ -426,6 +442,78 @@ body{
     grid-column: 1/3;
     font-size: 2.5vw;
     margin-top: 2.5vw;
-    margin-left:38vw;
+    margin-left:38.5vw;
+}
+
+.Proyecto1_texto{
+    grid-row: 1/1;
+    grid-column: 1/3;
+    font-size: 2.5vw;
+    margin-top: 19vw;
+    margin-left:12vw; 
+}
+
+.Proyecto2_texto{
+    grid-row: 1/1;
+    grid-column: 2/3;
+    font-size: 2.5vw;
+    margin-top: 19vw;
+    margin-left:12vw; 
+}
+
+.Proyecto3_texto{
+    grid-row: 1/1;
+    grid-column: 3/3;
+    font-size: 2.5vw;
+    margin-top: 19vw;
+    margin-left:12vw; 
+}
+
+.Proyecto4_texto{
+    grid-row: 1/1;
+    grid-column: 1/3;
+    font-size: 2.5vw;
+    margin-top: 38.5vw;
+    margin-left:12vw; 
+}
+
+.Proyecto5_texto{
+    grid-row: 1/1;
+    grid-column: 2/3;
+    font-size: 2.5vw;
+    margin-top: 38.5vw;
+    margin-left:12vw; 
+}
+
+.Proyecto6_texto{
+    grid-row: 1/1;
+    grid-column: 3/3;
+    font-size: 2.5vw;
+    margin-top: 38.5vw;
+    margin-left:12vw; 
+}
+
+.Proyecto7_texto{
+    grid-row: 1/1;
+    grid-column: 1/3;
+    font-size: 2.5vw;
+    margin-top: 58vw;
+    margin-left:12vw; 
+}
+
+.Proyecto8_texto{
+    grid-row: 1/1;
+    grid-column: 2/3;
+    font-size: 2.5vw;
+    margin-top: 58vw;
+    margin-left:12vw; 
+}
+
+.Proyecto9_texto{
+    grid-row: 1/1;
+    grid-column: 3/3;
+    font-size: 2.5vw;
+    margin-top: 58vw;
+    margin-left:12vw; 
 }
 
