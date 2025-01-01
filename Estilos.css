@@ -30,14 +30,12 @@ body{
     margin-top: 3vw;
     margin-bottom: 20vw;
 }
-
 .ht{
     font-size: 3.7vw;
     margin-top: 4%;
 }
 
 header{
-
 margin: 0 auto;
 margin-top: 5%;
 height: 35vw;
@@ -47,15 +45,11 @@ line-height: 100px;
 color: rgb(0, 0, 0);
 }
 
-
-
 .datos{
     display: grid;
     grid-template-columns: repeat(10, 11.2vw);
     grid-row: repeat(10, 10vw);
 }
-
-
 
 #Perfil{
     grid-column: 1/4;
@@ -215,7 +209,6 @@ footer{
     margin-left: 3.7vw;
 }
 
-
 .Microsoft_Teams{
     grid-row: 3/3;
     grid-column: 7/8;
@@ -254,9 +247,6 @@ footer{
     margin-left: 3.5vw;
     border-radius: 150px 150px 150px 150px;
 }
-
-
-
 
 .imagen{
     border-radius: 50%;
