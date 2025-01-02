@@ -210,6 +210,32 @@ aside{
     border-radius: 15px 15px 15px 15px;
 } 
 
+@keyframes ZoomPulsante{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.025);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+@keyframes ZoomPulsante2{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
 .Destacados_imagen1{
     grid-row: 1/1;
     width: 80%;
@@ -219,10 +245,12 @@ aside{
     margin-bottom: 0.5vw;
     border-radius: 20px 20px 20px 20px;
     transition: transform 0.3s ease;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
 }
 
 .Destacados_imagen1:hover{
     transform: scale(1.1);
+    border: 0.3vw solid #ff0000;
 }
 
 .Destacados_imagen2{
@@ -234,10 +262,12 @@ aside{
     margin-bottom: 0.5vw;
     border-radius: 20px 20px 20px 20px;
     transition: transform 0.3s ease;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
 }
 
 .Destacados_imagen2:hover{
     transform: scale(1.1);
+    border: 0.3vw solid #ff0000;
 }
 
 .Destacados_imagen3{
@@ -249,10 +279,12 @@ aside{
     margin-bottom: 0.5vw;
     border-radius: 20px 20px 20px 20px;
     transition: transform 0.3s ease;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
 }
 
 .Destacados_imagen3:hover{
     transform: scale(1.1);
+    border: 0.3vw solid #ff0000;
 }
 
 .Destacados_imagen4{
@@ -264,10 +296,12 @@ aside{
     margin-bottom: 0.5vw;
     border-radius: 20px 20px 20px 20px;
     transition: transform 0.3s ease;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
 }
 
 .Destacados_imagen4:hover{
     transform: scale(1.1);
+    border: 0.3vw solid #ff0000;
 }
 
 
@@ -314,11 +348,6 @@ footer{
     margin-left: 3.7vw;
 }
 
-.Microsoft_Teams{
-    grid-row: 3/3;
-    grid-column: 7/8;
-    margin-left: 2.2vw;
-}
 
 .Link_GitHub{
     grid-row: 2/2;
@@ -329,6 +358,13 @@ footer{
     width: 50%;
     margin-left: 3.5vw;
     border-radius: 150px 150px 150px 150px;
+    transition: transform 0.3s ease;
+    animation: ZoomPulsante2 2.5s infinite ease-in-out;
+}
+
+.imagen_GitHub:hover{
+    transform: scale(1.1);
+    border: 0.3vw solid #ff0000;
 }
 
 .Link_Linkedin{
@@ -340,7 +376,16 @@ footer{
     width: 50%;
     margin-left: 3.5vw;
     border-radius: 150px 150px 150px 150px;
+    transition: transform 0.3s ease;
+    animation: ZoomPulsante2 2.5s infinite ease-in-out;
 }
+
+.imagen_Linkedin:hover{
+    transform: scale(1.1);
+    border: 0.3vw solid #ff0000;
+}
+
+
 
 .Link_Gmail{
     grid-row: 2/2;
@@ -351,7 +396,16 @@ footer{
     width: 50%;
     margin-left: 3.5vw;
     border-radius: 150px 150px 150px 150px;
+    transition: transform 0.3s ease;
+    animation: ZoomPulsante2 2.5s infinite ease-in-out;
 }
+
+.imagen_Gmail:hover{
+    transform: scale(1.1);
+    border: 0.3vw solid #ff0000;
+}
+
+
 
 .imagen{
     border-radius: 50%;
@@ -384,23 +438,6 @@ footer{
 .H3{
     font-size: 2vw;
     margin-top: 4%;
-}
-
-#BusquedaBarra{
-    float: left;
-    width: 55%;
-    height: 3vw;
-    font-size: 2vw;
-    margin-left: 3vw;
-    border-radius: 150px 150px 150px 150px;
-}
-
-#BusquedaBoton{
-    width: 24%;
-    height: 3vw;
-    font-size: 2vw;
-    border-radius: 150px 150px 150px 150px;
-    margin-left: 1VW;
 }
 
 .ha{padding-bottom: 2vw;}
@@ -437,10 +474,12 @@ body{
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
     transition: transform 0.3s ease;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
 }
 
 .Proyecto1_imagen:hover{
     transform: scale(1.1);
+    border: 0.3vw solid #ff0000;
 }
 
 .Proyecto1_general{
@@ -459,10 +498,12 @@ body{
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
     transition: transform 0.3s ease;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
 }
 
 .Proyecto2_imagen:hover{
     transform: scale(1.1);
+    border: 0.3vw solid #ff0000;
 }
 
 .Proyecto2_general{
@@ -481,9 +522,11 @@ body{
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
     transition: transform 0.3s ease;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
 }
 .Proyecto3_imagen:hover{
     transform: scale(1.1);
+    border: 0.3vw solid #ff0000;
 } 
 
 .Proyecto3_general{
@@ -502,10 +545,12 @@ body{
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
     transition: transform 0.3s ease;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
 }
 
 .Proyecto4_imagen:hover{
     transform: scale(1.1);
+    border: 0.3vw solid #ff0000;
 }
 
 .Proyecto4_general{
@@ -524,10 +569,12 @@ body{
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
     transition: transform 0.3s ease;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
 }
 
 .Proyecto5_imagen:hover{
     transform: scale(1.1);
+    border: 0.3vw solid #ff0000;
 } 
 
 .Proyecto5_general{
@@ -547,10 +594,12 @@ body{
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
     transition: transform 0.3s ease;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
 }
 
 .Proyecto6_imagen:hover{
     transform: scale(1.1);
+    border: 0.3vw solid #ff0000;
 }
 
 .Proyecto6_general{
@@ -570,10 +619,12 @@ body{
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
     transition: transform 0.3s ease;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
 }
 
 .Proyecto7_imagen:hover{
     transform: scale(1.1);
+    border: 0.3vw solid #ff0000;
 }
 
 .Proyecto7_general{
@@ -592,10 +643,12 @@ body{
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
     transition: transform 0.3s ease;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
 }
 
 .Proyecto8_imagen:hover{
     transform: scale(1.1);
+    border: 0.3vw solid #ff0000;
 }
 
 .Proyecto8_general{
@@ -614,10 +667,12 @@ body{
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
     transition: transform 0.3s ease;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
 }
 
 .Proyecto9_imagen:hover{
     transform: scale(1.1);
+    border: 0.3vw solid #ff0000;
 }
 
 .Proyecto9_general{
