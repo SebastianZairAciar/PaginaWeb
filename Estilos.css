@@ -235,7 +235,6 @@ aside{
     }
 }
 
-
 .Destacados_imagen1{
     grid-row: 1/1;
     width: 80%;
@@ -246,11 +245,13 @@ aside{
     border-radius: 20px 20px 20px 20px;
     transition: transform 0.3s ease;
     animation: ZoomPulsante 2.5s infinite ease-in-out;
+    animation-play-state: running;
 }
 
 .Destacados_imagen1:hover{
     transform: scale(1.1);
     border: 0.3vw solid #ff0000;
+    animation-play-state: paused;
 }
 
 .Destacados_imagen2{
@@ -479,6 +480,7 @@ body{
 
 .Proyecto1_imagen:hover{
     transform: scale(1.1);
+    animation: none;
     border: 0.3vw solid #ff0000;
 }
 
