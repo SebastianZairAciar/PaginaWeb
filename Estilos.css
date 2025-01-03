@@ -53,7 +53,7 @@ color: rgb(0, 0, 0);
 
 #Perfil{
     grid-column: 1/4;
-    height: 20vw;
+    height: auto;
     background: rgb(115, 29, 255);
     text-align: center;
     margin: 1.5vw;
@@ -66,7 +66,7 @@ color: rgb(0, 0, 0);
 
 #SobreMi{
     grid-column: 4/7;
-    height: 20vw;
+    height: auto;
     background: rgb(115, 29, 255);
     text-align: center;
     margin: 1.5vw;
@@ -81,7 +81,7 @@ color: rgb(0, 0, 0);
     grid-column: 1/4;
     float: left;
     width: 91%;
-    height: 20vw;
+    height: auto;
     background: rgb(115, 29, 255);
     text-align: center;
     margin: 1.5vw;
@@ -96,7 +96,7 @@ color: rgb(0, 0, 0);
     grid-column: 4/7;
     float: left;
     width: 91%;
-    height: 20vw;
+    height: auto;
     background: rgb(115, 29, 255);
     text-align: center;
     margin: 1.5vw;
@@ -111,7 +111,7 @@ color: rgb(0, 0, 0);
     grid-column: 1/4;
     float: left;
     width: 91%;
-    height: 20vw;
+    height: auto;
     background: rgb(115, 29, 255);
     text-align: center;
     margin: 1.5vw;
@@ -126,7 +126,7 @@ color: rgb(0, 0, 0);
     grid-column: 4/7;
     float: left;
     width: 91%;
-    height: 20vw;
+    height: auto;
     background: rgb(115, 29, 255);
     text-align: center;
     margin: 1.5vw;
@@ -143,7 +143,7 @@ aside{
     grid-column: 7/10;
     grid-row: 1/10;
     width: 84%;
-    height: 65.7vw;
+    height: auto;
     background: rgb(51, 87, 134);
     text-align: center;
     margin: 1.5vw;
@@ -343,8 +343,8 @@ footer{
 
 .Gmail{
     grid-row: 3/3;
-    grid-column: 3/4;
-    margin-left: 3.7vw;
+    grid-column: 2/4;
+    margin-left: 11.7vw;
 }
 
 
