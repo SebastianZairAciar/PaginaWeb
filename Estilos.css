@@ -721,6 +721,58 @@ body{
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
 } 
+.Proyecto11_imagen{
+    grid-row: 5/5;
+    grid-column: 2/2;
+    width: 95%;
+    margin: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+
+.Proyecto11_imagen:hover{
+    scale: 1.25;
+    border: 0.3vw solid #ff0000;
+}
+
+.Proyecto11_general{
+    grid-row: 5/5;
+    grid-column: 2/2;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+.Proyecto12_imagen{
+    grid-row: 5/5;
+    grid-column: 3/3;
+    width: 95%;
+    margin: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+    animation: ZoomPulsante 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+
+.Proyecto12_imagen:hover{
+    scale: 1.25;
+    border: 0.3vw solid #ff0000;
+}
+
+.Proyecto12_general{
+    grid-row: 5/5;
+    grid-column: 3/3;
+    width: 95%;
+    margin-bottom: 0.5vw;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+
+
+
 .hproyectos{
     grid-row: 1/1;
     grid-column: 1/3;
