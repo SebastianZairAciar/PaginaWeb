@@ -165,7 +165,7 @@
   ],
   "images": [
     {
-      "uri": "textures/material_0_baseColor.png"
+      "uri": "https://raw.githubusercontent.com/SebastianZairAciar/PaginaWeb/refs/heads/Web/material_0_baseColor.png"
     }
   ],
   "materials": [
