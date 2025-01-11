@@ -160,12 +160,12 @@
   "buffers": [
     {
       "byteLength": 4518584,
-      "uri": "https://github.com/SebastianZairAciar/PaginaWeb/raw/refs/heads/Web/scene.bin"
+      "uri": "https://github.com/SebastianZairAciar/PaginaWeb/Web/scene.bin"
     }
   ],
   "images": [
     {
-      "uri": "https://raw.githubusercontent.com/SebastianZairAciar/PaginaWeb/refs/heads/Web/material_0_baseColor.png"
+      "uri": "https://raw.githubusercontent.com/SebastianZairAciar/PaginaWeb/Web/material_0_baseColor.png"
     }
   ],
   "materials": [
