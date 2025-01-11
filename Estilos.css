@@ -779,6 +779,10 @@ body{
 }
 
 
+model-viewer {
+    width: 100%;   /* El modelo ocupa el 100% del ancho disponible */
+    height: 500px; /* Altura fija de 500px */
+}
 
 
 /*
