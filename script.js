@@ -45,7 +45,7 @@ function init() {
     document.body.appendChild(renderer.domElement); // Añadir el canvas del renderizador al cuerpo de la página
 
     // Cargar el modelo GLTF
-    loader.load('/home/Sebastian/Escritorio/pagina web (copia 1)/scene.gltf', function (gltf) {
+    loader.load('https://raw.githubusercontent.com/SebastianZairAciar/PaginaWeb/refs/heads/Web/scene.gltf', function (gltf) {
         model = gltf.scene; // Asignar el modelo cargado a la variable "model"
         scene.add(model); // Añadir el modelo a la escena
 
