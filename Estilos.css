@@ -76,6 +76,7 @@ color: rgb(0, 0, 0);
     padding-bottom: 1%;
     line-height: 100%;
     border-radius: 3vw 3vw 3vw 3vw;
+    border: 0.5vw solid rgb(134, 134, 134);
 }
 
 #Educacion{
@@ -91,6 +92,7 @@ color: rgb(0, 0, 0);
     padding-bottom: 1%;
     line-height: 100%;
     border-radius: 3vw 3vw 3vw 3vw;
+    border: 0.5vw solid rgb(134, 134, 134);
 }
 
 #Experiencia{
@@ -106,6 +108,7 @@ color: rgb(0, 0, 0);
     padding-bottom: 1%;
     line-height: 100%;
     border-radius: 3vw 3vw 3vw 3vw;
+    border: 0.5vw solid rgb(134, 134, 134);
 }
 
 #Habilidades{
@@ -121,6 +124,7 @@ color: rgb(0, 0, 0);
     padding-bottom: 1%;
     line-height: 100%;
     border-radius: 3vw 3vw 3vw 3vw;
+    border: 0.5vw solid rgb(134, 134, 134);
 }
 
 #Pasatiempos{
@@ -136,6 +140,7 @@ color: rgb(0, 0, 0);
     padding-bottom: 1%;
     line-height: 100%;
     border-radius: 3vw 3vw 3vw 3vw;
+    border: 0.5vw solid rgb(134, 134, 134);
 }
 
 aside{ 
@@ -187,6 +192,7 @@ aside{
     width: 95%;
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
+    border: 0.5vw solid rgb(134, 134, 134);
 } 
 
 .Proyecto2_Destacos{
@@ -263,6 +269,7 @@ aside{
     border-radius: 20px 20px 20px 20px;
     animation: ZoomPulsante 2.5s infinite ease-in-out;
     transition-duration: 1s;
+        border: 0.5vw solid rgb(134, 134, 134);
 }
 
 .Destacados_imagen2:hover{
@@ -285,6 +292,7 @@ aside{
 .Destacados_imagen3:hover{
     scale: 1.1;
     border: 0.3vw solid #ff0000;
+    border: 0.5vw solid rgb(134, 134, 134);
 }
 
 .Destacados_imagen4{
