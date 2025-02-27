@@ -62,6 +62,7 @@ color: rgb(0, 0, 0);
     padding-bottom: 1%;
     line-height: 100%;
     border-radius: 3vw 3vw 3vw 3vw;
+    border: 10vw rgb(0, 0, 0) ;
 }
 
 #SobreMi{
@@ -245,7 +246,6 @@ aside{
     border-radius: 20px 20px 20px 20px;
     animation: ZoomPulsante 2.5s infinite ease-in-out;
     transition-duration: 1s;
-    border: 10vw rgb(0, 0, 0) ;
 }
 
 .Destacados_imagen1:hover{
