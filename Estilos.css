@@ -62,7 +62,7 @@ color: rgb(0, 0, 0);
     padding-bottom: 1%;
     line-height: 100%;
     border-radius: 3vw 3vw 3vw 3vw;
-    border: 0.35vw solid rgb(85, 82, 82);
+    border: 0.35vw solid rgb(124, 119, 119);
 }
 
 #SobreMi{
@@ -76,7 +76,7 @@ color: rgb(0, 0, 0);
     padding-bottom: 1%;
     line-height: 100%;
     border-radius: 3vw 3vw 3vw 3vw;
-    border: 0.35vw solid rgb(85, 82, 82);
+    border: 0.35vw solid rgb(124, 119, 119);
 }
 
 #Educacion{
@@ -92,7 +92,7 @@ color: rgb(0, 0, 0);
     padding-bottom: 1%;
     line-height: 100%;
     border-radius: 3vw 3vw 3vw 3vw;
-    border: 0.35vw solid rgb(85, 82, 82);
+    border: 0.35vw solid rgb(124, 119, 119);
 }
 
 #Experiencia{
@@ -108,7 +108,7 @@ color: rgb(0, 0, 0);
     padding-bottom: 1%;
     line-height: 100%;
     border-radius: 3vw 3vw 3vw 3vw;
-    border: 0.35vw solid rgb(85, 82, 82);
+    border: 0.35vw solid rgb(124, 119, 119);
 }
 
 #Habilidades{
@@ -124,7 +124,7 @@ color: rgb(0, 0, 0);
     padding-bottom: 1%;
     line-height: 100%;
     border-radius: 3vw 3vw 3vw 3vw;
-    border: 0.35vw solid rgb(85, 82, 82);
+    border: 0.35vw solid rgb(124, 119, 119);
 }
 
 #Pasatiempos{
@@ -140,7 +140,7 @@ color: rgb(0, 0, 0);
     padding-bottom: 1%;
     line-height: 100%;
     border-radius: 3vw 3vw 3vw 3vw;
-    border: 0.35vw solid rgb(85, 82, 82);
+    border: 0.35vw solid rgb(124, 119, 119);
 }
 
 aside{ 
@@ -251,7 +251,7 @@ aside{
     border-radius: 20px 20px 20px 20px;
     animation: ZoomPulsante 2.5s infinite ease-in-out;
     transition-duration: 1s;
-    border: 0.35vw solid rgb(85, 82, 82);
+    border: 0.35vw solid rgb(124, 119, 119);
 }
 
 .Destacados_imagen1:hover{
@@ -269,7 +269,7 @@ aside{
     border-radius: 20px 20px 20px 20px;
     animation: ZoomPulsante 2.5s infinite ease-in-out;
     transition-duration: 1s;
-    border: 0.35vw solid rgb(85, 82, 82);
+    border: 0.35vw solid rgb(124, 119, 119);
 }
 
 .Destacados_imagen2:hover{
@@ -287,7 +287,7 @@ aside{
     border-radius: 20px 20px 20px 20px;
     animation: ZoomPulsante 2.5s infinite ease-in-out;
     transition-duration: 1s;
-    border: 0.35vw solid rgb(85, 82, 82);
+    border: 0.35vw solid rgb(124, 119, 119);
 }
 
 .Destacados_imagen3:hover{
@@ -305,7 +305,7 @@ aside{
     border-radius: 20px 20px 20px 20px;
     animation: ZoomPulsante 2.5s infinite ease-in-out;
     transition-duration: 1s;
-    border: 0.35vw solid rgb(85, 82, 82);
+    border: 0.35vw solid rgb(124, 119, 119);
 }
 
 .Destacados_imagen4:hover{
