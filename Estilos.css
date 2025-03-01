@@ -150,7 +150,7 @@ aside{
     grid-row: 1/10;
     width: 84%;
     height: auto;
-    background: rgb(51, 87, 134);
+    background: rgb(45, 40, 75);
     text-align: center;
     margin: 1.5vw;
     margin-bottom: 0.5vw;
@@ -256,7 +256,7 @@ aside{
 
 .Destacados_imagen1:hover{
     scale: 1.1;
-    border: 0.3vw solid #ff0000;
+    border: 0.3vw solid #0c5f01;
 }
 
 .Destacados_imagen2{
@@ -274,7 +274,7 @@ aside{
 
 .Destacados_imagen2:hover{
     scale: 1.1;
-    border: 0.3vw solid #ff0000;
+    border: 0.3vw solid #0c5f01;
 }
 
 .Destacados_imagen3{
@@ -292,7 +292,7 @@ aside{
 
 .Destacados_imagen3:hover{
     scale: 1.1;
-    border: 0.3vw solid #ff0000;
+    border: 0.3vw solid #0c5f01;
 }
 
 .Destacados_imagen4{
@@ -310,7 +310,7 @@ aside{
 
 .Destacados_imagen4:hover{
     scale: 1.1;
-    border: 0.3vw solid #ff0000;
+    border: 0.3vw solid #0c5f01;
 }
 
 
@@ -373,7 +373,7 @@ footer{
 
 .imagen_GitHub:hover{
     scale: 1.25;
-    border: 0.3vw solid #ff0000;
+    border: 0.3vw solid #0c5f01;
 }
 
 .Link_Linkedin{
@@ -391,7 +391,7 @@ footer{
 
 .imagen_Linkedin:hover{
     scale: 1.25;
-    border: 0.3vw solid #ff0000;
+    border: 0.3vw solid #0c5f01;
 }
 
 
@@ -411,7 +411,7 @@ footer{
 
 .imagen_Gmail:hover{
     scale: 1.25;
-    border: 0.3vw solid #ff0000;
+    border: 0.3vw solid #0c5f01;
 }
 
 
@@ -501,7 +501,7 @@ body{
 .Proyecto1_imagen:hover {
     animation-play-state: paused;
     scale: 1.25;
-    border: 0.3vw solid #ff0000;
+    border: 0.3vw solid #0c5f01;
 
 }
 
@@ -528,7 +528,7 @@ body{
 .Proyecto2_imagen:hover{
     animation-play-state: paused;
     scale: 1.25;
-    border: 0.3vw solid #ff0000;
+    border: 0.3vw solid #0c5f01;
 }
 
 .Proyecto2_general{
@@ -551,7 +551,7 @@ body{
 }
 .Proyecto3_imagen:hover{
     scale: 1.25;
-    border: 0.3vw solid #ff0000;
+    border: 0.3vw solid #0c5f01;
 } 
 
 .Proyecto3_general{
@@ -575,7 +575,7 @@ body{
 
 .Proyecto4_imagen:hover{
     scale: 1.25;
-    border: 0.3vw solid #ff0000;
+    border: 0.3vw solid #0c5f01;
 }
 
 .Proyecto4_general{
@@ -599,7 +599,7 @@ body{
 
 .Proyecto5_imagen:hover{
     scale: 1.25;
-    border: 0.3vw solid #ff0000;
+    border: 0.3vw solid #0c5f01;
 } 
 
 .Proyecto5_general{
@@ -624,7 +624,7 @@ body{
 
 .Proyecto6_imagen:hover{
     scale: 1.25;
-    border: 0.3vw solid #ff0000;
+    border: 0.3vw solid #0c5f01;
 }
 
 .Proyecto6_general{
@@ -649,7 +649,7 @@ body{
 
 .Proyecto7_imagen:hover{
     scale: 1.25;
-    border: 0.3vw solid #ff0000;
+    border: 0.3vw solid #0c5f01;
 }
 
 .Proyecto7_general{
@@ -673,7 +673,7 @@ body{
 
 .Proyecto8_imagen:hover{
     scale: 1.25;
-    border: 0.3vw solid #ff0000;
+    border: 0.3vw solid #0c5f01;
 }
 
 .Proyecto8_general{
@@ -697,7 +697,7 @@ body{
 
 .Proyecto9_imagen:hover{
     scale: 1.25;
-    border: 0.3vw solid #ff0000;
+    border: 0.3vw solid #0c5f01;
 }
 
 .Proyecto9_general{
@@ -721,7 +721,7 @@ body{
 
 .Proyecto10_imagen:hover{
     scale: 1.25;
-    border: 0.3vw solid #ff0000;
+    border: 0.3vw solid #0c5f01;
 }
 
 .Proyecto10_general{
@@ -745,7 +745,7 @@ body{
 
 .Proyecto11_imagen:hover{
     scale: 1.25;
-    border: 0.3vw solid #ff0000;
+    border: 0.3vw solid #0c5f01;
 }
 
 .Proyecto11_general{
@@ -769,7 +769,7 @@ body{
 
 .Proyecto12_imagen:hover{
     scale: 1.25;
-    border: 0.3vw solid #ff0000;
+    border: 0.3vw solid #0c5f01;
 }
 
 .Proyecto12_general{
