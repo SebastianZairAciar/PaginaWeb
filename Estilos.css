@@ -15,7 +15,7 @@ body{
 #Container{
     background: rgba(58, 56, 56, 0.616);
     border-radius: 150px 150px 150px 150px;
-    width: 60vw;
+    width: 40vw;
     height: 8vw; 
     margin: 0px auto;
 
@@ -24,7 +24,7 @@ body{
 #Titulo{
      background: rgba(58, 56, 56, 0.616);
     border-radius: 150px 150px 150px 150px;
-    width: 20vw;
+    width: 40vw;
     height: 8vw; 
     margin: 0px auto;
     margin-top: 3vw;
