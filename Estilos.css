@@ -54,7 +54,7 @@ color: rgb(0, 0, 0);
 #Perfil{
     grid-column: 1/4;
     height: auto;
-    background: rgb(115, 29, 255);
+    background: rgb(39, 48, 61);
     text-align: center;
     margin: 1.5vw;
     margin-bottom: 0.5vw;
@@ -62,7 +62,7 @@ color: rgb(0, 0, 0);
     padding-bottom: 1%;
     line-height: 100%;
     border-radius: 3vw 3vw 3vw 3vw;
-    border: 0.35vw solid rgb(124, 119, 119);
+    border: 0.35vw solid rgb(124, 119, 119); 
 }
 
 #SobreMi{
