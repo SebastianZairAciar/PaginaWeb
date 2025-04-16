@@ -484,7 +484,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 28vw);
     column-gap: 2.3vw;
-    grid-row: repeat(10,3vw);
+    grid-row: repeat(2,3vw);
 }
 
 .Proyectos{
