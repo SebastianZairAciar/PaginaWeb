@@ -494,16 +494,12 @@ body{
     color:rgb(115, 29, 255);
     margin: 1.5%;
     margin-bottom: 1%;
-    padding-right: 1%;
-    padding-left: 1%;
     border-radius: 30px 30px 30px 30px;
 }
 .Proyecto1_imagen{
     grid-row: 2/2;
     grid-column: 1/1;
     width: 95%;
-    margin: 3vw;
-    margin-top: 2vw;
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
     animation: ZoomPulsante 2.5s infinite ease-in-out;
@@ -529,8 +525,7 @@ body{
     grid-row: 2/2;
     grid-column: 2/2;
     width: 95%;
-    margin: 3vw;
-    margin-top: 2vw;
+    margin: 0.5vw;
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
     animation: ZoomPulsante 2.5s infinite ease-in-out;
@@ -554,7 +549,7 @@ body{
     grid-row: 2/2;
     grid-column: 3/3;
     width: 95%;
-    margin: 3vw;
+    margin: 0.5vw;
     margin-top: 2vw;
     margin-bottom: 0.5vw;
     border-radius: 15px 15px 15px 15px;
