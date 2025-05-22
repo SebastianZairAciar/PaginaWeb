@@ -112,9 +112,9 @@ color: rgb(0, 0, 0);
 }
 
 #Habilidades{
-    grid-column: 1/4;
+    grid-column: 1/7;
     float: left;
-    width: 91%;
+    width: 95.5%;
     height: auto;
     background: rgb(45, 40, 75);
     text-align: center;
@@ -127,21 +127,6 @@ color: rgb(0, 0, 0);
     border: 0.35vw solid rgb(124, 119, 119);
 }
 
-#Pasatiempos{
-    grid-column: 4/7;
-    float: left;
-    width: 91%;
-    height: auto;
-    background: rgb(45, 40, 75);
-    text-align: center;
-    margin: 1.5vw;
-    margin-bottom: 0.5vw;
-    padding-top: 1.25%;
-    padding-bottom: 1%;
-    line-height: 100%;
-    border-radius: 3vw 3vw 3vw 3vw;
-    border: 0.35vw solid rgb(124, 119, 119);
-}
 
 aside{ 
     display: grid;
@@ -163,24 +148,6 @@ aside{
 }
 
 
-/*
-.Proyecto2_imagen{
-    grid-row: 2/2;
-    grid-column: 2/2;
-    width: 95%;
-    margin: 3vw;
-    margin-top: 2vw;
-    margin-bottom: 0.5vw;
-    border-radius: 15px 15px 15px 15px;
-} 
-.Proyecto2_general{
-    grid-row: 2/2;
-    grid-column: 2/2;
-    width: 95%;
-    margin-bottom: 0.5vw;
-    border-radius: 15px 15px 15px 15px;
-} 
-*/
 .hd{
     font-size: 2.5vw;
     margin-top: 4%;
@@ -329,6 +296,26 @@ footer{
     height: 18vw;
     color:rgb(115, 29, 255);
     margin: 1.5%;
+    margin-top: 4vw;
+    padding-left: 5%;
+    border-radius: 150px 150px 150px 150px;
+}
+
+.footer2{
+    display: grid;
+    grid-template-columns: repeat(6, 12vw);
+    column-gap: 6.5vw;
+    grid-row: repeat(3, 10vw);
+    height: 100px;
+    width: 100%;
+}
+
+.footer2{
+    background: rgba(0, 0, 0, 0.842);
+    width:92%;
+    height: 18vw;
+    color:rgb(115, 29, 255);
+    margin: 1.5%;
     margin-top: 10vw;
     padding-left: 5%;
     border-radius: 150px 150px 150px 150px;
@@ -338,6 +325,71 @@ footer{
     grid-column: 3/4;
     grid-row: 1/1;
 }
+
+.Datos_Personales{
+    grid-column: 2/5;
+    grid-row: 1/1;
+}
+
+.Idiomas{
+    grid-row: 3/3;
+    grid-column: 5/6;
+    margin-left: 2.5vw;
+}
+
+.Direccion{
+    grid-row: 3/3;
+    grid-column: 1/2;
+    margin-left: 2vw;
+}
+
+.Edad{
+    grid-row: 3/3;
+    grid-column: 3/3;
+    margin-left: 3.15vw;
+}
+
+
+.Link_Idiomas{
+    grid-row: 2/2;
+    grid-column: 5/6;
+}
+ 
+.imagen_Idiomas{
+    width: 50%;
+    margin-left: 3.5vw;
+    border-radius: 150px 150px 150px 150px;
+    animation: ZoomPulsante2 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+
+
+.Link_Direccion{
+    grid-row: 2/2;
+    grid-column: 1/2;
+}
+
+.imagen_Direccion{
+    width: 50%;
+    margin-left: 3.5vw;
+    border-radius: 150px 150px 150px 150px;
+    animation: ZoomPulsante2 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+
+.Link_Edad{
+    grid-row: 2/2;
+    grid-column: 3/4;
+}
+
+.imagen_Edad{
+    width: 50%;
+    margin-left: 3.5vw;
+    border-radius: 150px 150px 150px 150px;
+    animation: ZoomPulsante2 2.5s infinite ease-in-out;
+    transition-duration: 1s;
+}
+
 
 .GitHub{
     grid-row: 3/3;
