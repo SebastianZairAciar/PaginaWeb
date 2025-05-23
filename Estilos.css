@@ -493,6 +493,7 @@ footer{
     text-align: left;
     margin-left: 1.5vw;
     margin-right: 1vw;
+    line-height: 1.5vw;
 }
 
 
@@ -505,21 +506,43 @@ footer{
     margin-left: 1.5vw;
     margin-right: 1vw;
 }
+/*
+#Habilidades {
+    grid-column: 1 / 7;
+    float: left;
+    width: 95.5%;
+    height: auto;
+    background: rgb(45, 40, 75);
+    text-align: center;
+    margin: 1.5vw;
+    margin-bottom: 0.5vw;
+    padding-top: 1.25%;
+    padding-bottom: 1%;
+    line-height: 100%;
+    border-radius: 3vw;
+    border: 0.35vw solid rgb(124, 119, 119);
+    color: white}; /* para mejor legibilidad */
 
 
-.Hhabilidades{
+.Hhabilidades {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2vw;
     text-align: left;
     font-size: 1.5vw;
     margin-top: 4%;
     margin-left: 2vw;
 }
 
-.Hhabilidades li{
-    text-align: left;
-    font-size: 1.5vw;
+.Hhabilidades ul {
+    padding-left: 1.5rem;
+    margin: 0;
+}
+
+.Hhabilidades li {
     margin-top: 1vw;
     margin-bottom: 1vw;
-    margin-left: 5vw;
+    margin-left: 0;
 }
 
 .H3{
