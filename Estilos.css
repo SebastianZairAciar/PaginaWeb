@@ -345,17 +345,17 @@ footer{
 
 .Edad{
     grid-row: 3/3;
-    grid-column: 3/3;
+    grid-column: 5/6;
     margin-left: 3.15vw;
 }
 
 
-.Link_Idiomas{
+.Link_Telefono{
     grid-row: 2/2;
-    grid-column: 5/6;
+    grid-column: 3/3;
 }
  
-.imagen_Idiomas{
+.imagen_Telefono{
     width: 50%;
     margin-left: 3.5vw;
     border-radius: 150px 150px 150px 150px;
